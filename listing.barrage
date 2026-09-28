@@ -1,0 +1,45 @@
+# AI Everything Sandbox
+
+> An offline multi-agent kit: subsumption layers, a ternary knowledge store, tool composition, and conceptual sims. Built in the sandbox for "build everything in AI."
+
+## Purpose
+Explain this sandbox framework so anyone can see it is a pile of small agents and tools that run without the public internet. Source: fitzyracing1/ai-everything-sandbox.
+
+## How it works (plain English)
+1. Stay inside the sandbox.
+2. Store knowledge in a three-way tree.
+3. Let higher needs stop lower ones.
+4. Compose tools and run conceptual sims.
+
+## Key ideas
+- Offline sandbox (no public net required)
+- Subsumption (higher layers can stop lower ones)
+- Ternary store (knowledge in a three-way tree)
+
+## The actual code
+```
+# source: fitzyracing1/ai-everything-sandbox
+run_offline()
+store_ternary()
+compose_tools()
+simulate()
+```
+
+## Line-by-line translation
+1. run_offline() → “do the work on this machine”
+2. store_ternary() → “keep facts in a three-way tree”
+3. compose_tools() → “weld tools together”
+4. simulate() → “run a conceptual sim”
+
+## Decisions the program makes
+- If the net is gone → still run
+- If a higher layer is active → stop the lower layer
+
+## What a person would notice
+A local kit that claims to build everything without leaving the box.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the source and run one offline module.
